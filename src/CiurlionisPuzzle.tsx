@@ -2,7 +2,7 @@ import { useEffect, useMemo, useRef, useState } from 'react';
 
 // ---- NUSTATYMAI ----
 const DEFAULT_IMAGE =
-  '/products-Ciurlionis---Pilies-pasaka-s (1).jpg';
+  '/products-Ciurlionis---Pilies-pasaka.jpg';
 const BOARD_PX = 360; // lentos dydis px
 
 // pagalbinės
@@ -276,4 +276,5 @@ export default function CiurlionisPuzzle() {
     </div>
   );
 }
+
 
