@@ -2,7 +2,7 @@ import { useEffect, useMemo, useRef, useState } from 'react';
 
 // ---- NUSTATYMAI ----
 const DEFAULT_IMAGE =
-  'https://upload.wikimedia.org/wikipedia/commons/1/1c/Mikalojus_Konstantinas_%C4%8Ciurlionis_-_The_Sea_%281908%29.jpg';
+  '/products-Ciurlionis---Pilies-pasaka-s (1).jpg';
 const BOARD_PX = 360; // lentos dydis px
 
 // pagalbinės
@@ -276,3 +276,4 @@ export default function CiurlionisPuzzle() {
     </div>
   );
 }
+
