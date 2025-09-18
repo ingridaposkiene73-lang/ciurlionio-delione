@@ -2,7 +2,7 @@ import { useEffect, useMemo, useRef, useState } from 'react';
 
 // ---- NUSTATYMAI ----
 const DEFAULT_IMAGE =
-  '/products-Ciurlionis---Pilies-pasaka.jpg';
+  '/https://storage.googleapis.com/museum-data-prod/large-36f1eb1c-58c4-43dc-940d-26c75532cd20.jpg';
 const BOARD_PX = 360; // lentos dydis px
 
 // pagalbinės
@@ -276,5 +276,6 @@ export default function CiurlionisPuzzle() {
     </div>
   );
 }
+
 
 
