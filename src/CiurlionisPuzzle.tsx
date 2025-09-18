@@ -2,7 +2,7 @@ import { useEffect, useMemo, useRef, useState } from 'react';
 
 // ---- NUSTATYMAI ----
 const DEFAULT_IMAGE =
-  '/https://public/zodiakas_ciurlionis.jpg';
+  '/zodiakas_ciurlionis.jpg';
 const BOARD_PX = 360; // lentos dydis px
 
 // pagalbinės
@@ -276,6 +276,7 @@ export default function CiurlionisPuzzle() {
     </div>
   );
 }
+
 
 
 
